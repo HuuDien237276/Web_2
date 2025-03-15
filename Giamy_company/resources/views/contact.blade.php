@@ -10,6 +10,7 @@
 <body>
     <h1>Chào mừng đến với Công ty Gia My - contacts</h1>
     <p>Đây là trang chủ của chúng tôi.</p>
+    <button><a href="{{url('../home') }}">Home</a></button>
 </body>
 
 </html>
