@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ - Công ty Gia My</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -22,4 +23,13 @@
     </div>
 </body>
 
-</html>
+</html> -->
+
+@extends('layouts.app')
+
+@section('title', 'Home')
+
+@section('home')
+<h1>Chào mừng đến với Công ty Gia My</h1>
+<p>Đây là trang chủ của chúng tôi.</p>
+@endsection

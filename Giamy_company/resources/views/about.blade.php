@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="vi">
 
 <head>
@@ -13,4 +13,12 @@
     <button><a href="{{url('../home') }}">Home</a></button>
 </body>
 
-</html>
+</html> -->
+@extends('layouts.app')
+
+@section('title','About us')
+
+@section('about')
+<h1>Chào mừng đến với Công ty Gia My - Giới thiệu</h1>
+<p>Đây là trang chủ của chúng tôi.</p>
+@endsection

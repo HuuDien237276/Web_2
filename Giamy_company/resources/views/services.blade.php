@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="vi">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ - Công ty Gia My</title>
-</head>
+@section('title', 'Services')
 
-<body>
-    <h1>Chào mừng đến với Công ty Gia My - services</h1>
-    <p>Đây là trang chủ của chúng tôi.</p>
-    <button><a href="{{url('../home') }}">Home</a></button>
-</body>
-
-</html>
+@section('services')
+<h1>Chào mừng đến với Công ty Gia My - Dịch vụ</h1>
+<p>Đây là trang chủ của chúng tôi.</p>
+@endsection
